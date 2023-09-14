@@ -72,7 +72,7 @@ export default function App() {
 
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
-  const [selectedContent, setSelectedContent] = useState("Map");
+  const [selectedContent, setSelectedContent] = useState("Maps");
 
 
   const handleDrawerOpen = () => {
@@ -85,7 +85,7 @@ export default function App() {
 
   const renderSelectedComponent = () => {
     switch (selectedContent) {
-      case "Map":
+      case "Maps":
         return <Map />;
       case "Rivals":
         return <Rivals />;
@@ -151,7 +151,7 @@ export default function App() {
         </DrawerHeader>
         <Divider />
         <List>
-          {['Map', 'Rivals', 'Festival of Merit', 'Emerald Grove'].map((text, index) => (
+          {['Maps', 'Rivals', 'Festival of Merit', 'Emerald Grove'].map((text, index) => (
             <ListItem key={text} disablePadding>
               <ListItemButton onClick={() => setSelectedContent(text)}>
                 <ListItemText primary={text} />

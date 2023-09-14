@@ -62,20 +62,68 @@ const locations = [
         ]
     },
     {
-        location: 'Best Pies in the Jumble',
+        location: 'Wetwalks Paddywhack',
         descriptions: [
-            "Best Pies in the Jumble (Agatha Silverspoon makes the best pies in the Jumble) - Win Medal of the meat pie(2d4+2 temp hit points) Cannot compete again until you take a long rest Rival Irvan Wastewalker (Mrs Doubtfire)", 
+            "This game requires teamwork and skill with a blade.", 
             "Read the description: ",
-            "two",
-            "two",
-            "two",
-            "two",
-            "two",
-            "two",
-            "two",
-            "two",
+            "On the eastern edge of the Jumble, the docks rise upward from the river to run alongside wooden shacks built on stilts, casting crooked shadows over the wetlands below. Some areas of the wetlands have been cordoned off to create rice paddies, which are now ready for harvest. Blue and green banners wave over one end of the docks, where two elderly goblin farmers preside over the contest. “You know how it goes!” one hollers out in a reedy voice. “First team to harvest the rice from their section wins!”",
+            "This event is managed by two neutral good goblins named Beetle and Zag. Their farm is jointly run by the Gakthash and Uvuroh goblin clans, and every year, the goblin couple uses the festival competitions as a labor-saving way to harvest their crops.",
+            "After the pie-eating contest in area J1, Irvan(Doubtfire) can also be found relaxing here (They did the pie eating contest)",
+            "Harvesting the Rice. A team of two is required to participate in this contest, and there is no entry fee. If a character needs a partner, Irvan grudgingly volunteers to be their teammate for the event. When a team enters the contest, they are asked to designate which is the cutter (who cuts the stalks down) and which is the gatherer (who gathers the stalks and prepares them for drying). Zag provides the cutter with a sickle before Beetle directs the teams to the paddies and asks them to await the signal to start.",
+            "Each Team is responsible for 40 ft squared area of paddy, ",
+            "Orc Team: Athletics +3, Sleight of Hand +0",
+            "Drow Team: Athletics +0, Sleight of Hand +2",
+            "At the end of each minute, each team’s cutter must make a DC 11 Strength (Athletics) check; on a success, the cutter clears a 5-foot-square section of their paddy. Once a section has been cleared, the team’s gatherer must spend 1 minute trying to gather and bundle the shorn rice, doing so with a successful DC 11 Dexterity (Sleight of Hand) check; a failed check causes the team’s cutter to make their next Strength (Athletics) check with disadvantage, as the gatherer’s bundling work gets in the way. The first team to clear and bundle the rice from all four 5-foot squares of their strip of paddy wins (ties are possible).",
+            "Treasure. Beetle and Zag award each member of the winning team a copper medal of the wetlands (see appendix B) engraved with a sheaf of rice, hung on a necklace woven of reeds.",
         ]
     },
+    {
+        location: 'Herding the Horizonbacks',
+        descriptions: [
+            "This challenge tests the participants’ acrobatic ability and skill with handling animals", 
+            "Read the description: ",
+            "Festivalgoers are clustered around a paddock full of young horizonback tortoises that are shuffling around inside the enclosure. The fifteen-foot-tall tortoises are being tended by young herders, who are fitting them with makeshift bridles. These individuals are overseen by a tall, attractive orc who makes sure the bridles are attached correctly. The orc waves at you and says, “Have you come to join the horizonback migration? There’s a tortoise for each of you, and a medal to be won if you make it to the end in one piece. Last year we had to rebuild three houses after the festival!”",
+            "You see Doubtfire leaving the Adan, the supervisor of the Horizonbacks who suddenly has a look of concern as he see the adventures approach. Unfortunately this competition is closed for today.  Thank you for your interest. Puts up a closed sign at the competition",
+        ]
+    },
+    {
+        location: 'Riddles and Rhymes',
+        descriptions: [
+            "This event challenges a character’s intellect with a series of riddles - you need 2 out of the three", 
+            "Read the description: ",
+            "An elderly goblin in blue robes presides over a set of three tables. One table holds a wooden box, the second displays a glittering star map of the Exandrian sky, and on the third rests a row of colored bottles. A banner hanging over the setup reads, “Test your wit with me, against these riddles three.”",
+            "Elder Colbu Kaz, a chaotic neutral, goblin priest, created these three puzzles. Each attempt to answer one riddle costs 2 sp. Answering at least two of the riddles correctly is enough to win the contest (see “Treasure” below). Various other challengers are trying to solve the riddles, including Galsariad Ardyth(Frank-N-Furter). This clever drow solves two of the riddles after a total of four guesses. If the characters solve each riddle on the first try, he is impressed (see “Meeting Galsariad” below)",
+            "Table 1: The Box’s Riddle. On this table are a locked wooden box and four metal keys.",
+            "Key Metals: bronze, copper, silver, gold",
+            "Lock sea theme: Bronze dragon - Arcana check DC - 17 I will tell them that this dragon comes in third place",
+            "A character can make a DC 10 Intelligence check to recognize that the metallic hues of the keys and the first two lines of the riddle are talking about not just metals but also types of metallic dragons. A character who succeeds on a DC 13 Intelligence (Arcana or History) check recognizes the shape of the dragon lock or the box’s aquatic decorations as indicative of a bronze dragon; if a character saw someone get shocked by lightning after an incorrect guess, the DC for this check is reduced to 11.",
+            "Table 2: The Star Map’s Riddle. The star map resting on this table depicts the moons and constellations visible in the Exandrian night sky",
+            "A character who succeeds on a DC 13 Intelligence (History or Religion) check recalls the stories regarding Exandria’s moons, recognizing the second line as referring to the superstitions surrounding Ruidus and the last line as referring to the divine portfolio of Sehanine the Moon Weaver. A character who succeeds on a DC 11 Wisdom (Perception) check determines that there is only one red object on the star map—Ruidus",
+            "Table 3: The Bottles’ Riddle. On this table is a row of seven small bottles filled with colored liquids, and the following riddle in Common:",
+            "Bottle Five is the correct one, a player has 2 chances to guess correctly",
+            "Intelligence check, DC12",
+            `Bottles 2 and 6 are both directly to the right of a purple bottle and thus must contain blight brew.
+            Bottles 2, 4, and 6—the “even” ones—should be avoided, as they hold only “pain.”
+            If the sky-blue bottle leaves a “stain,” it must be harmless juice, but not the correct answer.
+            The first and last bottles must also be juice, as they are “tasty” but won’t win the riddle`,
+            "Characters can make multiple Intelligence checks to gain multiple hints, but a character who fails a check can’t make another until they drink from a bottle.",
+            "Detect magic spell reveals the fifth bottle to be the only one containing magical liquid",
+        ]
+    },
+    {
+        location: 'Final Contest',
+        descriptions: [
+            "This event challenges a character’s intellect with a series of riddles", 
+            "Read the description: ",
+            "An elderly orc, dressed in deep blue robes, stands atop a platform of crates. He smiles at the crowd. “Mighty warriors, brilliant strategists, you have impressed us with your feats of strength, your incisive wit, and your sturdy bellies,” he booms proudly. “But the main event, as you know, is yet to come. Only two teams will be chosen to compete in the final challenge—a race through the Emerald Grotto, in the depths of which the greatest prize awaits!”",
+            `Elder Ushru explains that he and Elder Colbu Kaz will choose two teams from among the festival’s most successful contestants and invite them to engage in a race through a submerged grotto to retrieve a jeweled icon that has symbolized the competitive spirit of Jigow for generations: the Emerald Eye. The winners of the race receive 100 gp and are hailed as the city’s Champions of Merit for the next year.
+            Elder Colbu Kaz joins Elder Ushru on the platform, where they consult briefly, pointing at figures in the crowd and whispering to each other. They eventually decide on two teams: the player characters and the rivals. Both groups are invited to follow the elders to the Emerald Grotto to compete in the grand finale.`,
+            "The characters and their rivals follow the elders as they wade through the shallows, from one island to another. When they reach the smallest island, Elder Colbu Kaz places several potions of water breathing in front of the contestants—one for each of them. “Their magic lasts for one hour,” he says.",
+            "Elder Ushru stands before the mouth of a cave and addresses you and your opponents. “You brave and valiant individuals have triumphed in many challenges this day; now, the final Test of Merit awaits you!” He pulls a palm-sized gold-and-emerald amulet from his robes, holds it aloft, and declares: “This medal’s twin has been placed in the deepest cavern of the Emerald Grotto. Be the first to claim the Emerald Eye and return it to this place to be declared Jigow’s Champions of Merit! Begin now!”",
+            "Group Dexterity Check, half must get a 14 or higher, or the rivals enter first",
+        ]
+    },
+    
 ]
 
 export default function Festival() {
