@@ -35,7 +35,7 @@ export default function Grove() {
                     </CardContent>
                 </Card> */}
                 {locations.map((location, index) => (
-                    <Card sx={{ my: '10px' }}>
+                    <Card key={location} sx={{ my: '10px' }}>
                         <CardContent>
                             <Typography key={location.location} variant='h5'>
                                 {location.location}

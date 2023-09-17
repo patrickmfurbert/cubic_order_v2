@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -11,6 +11,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Button from '@mui/material/Button';
+import Tracker from './Tracker';
 
 const Locations = [
     "E1: Grotto Entrance",
@@ -27,20 +28,8 @@ const Locations = [
     "E12: Prayer Site of Sehanine",
 ];
 
-export  function Tracker() {
-    const [rounds, setRounds] = useState(0);
-    return (
-        <TableCell align="right">
-            {rounds}{"   "}
-            <ButtonGroup variant="text" color="error" aria-label="outlined primary button group">
-                <Button onClick={() => setRounds(rounds + 1)}>+</Button>
-                <Button onClick={() => setRounds(rounds - 1)}>-</Button>
-            </ButtonGroup>
-        </TableCell>
-    );
-}
-
 export default function GroveTable() {
+
     return (
         <>
 
@@ -69,8 +58,8 @@ export default function GroveTable() {
                                         <TableCell component="th" scope="row">
                                             {location}
                                         </TableCell>
-                                        <Tracker />
-                                        <Tracker />
+                                        <Tracker identifier={location+'.CubicOrder'} />
+                                        <Tracker identifier={location+'.Rivals'} />
                                     </TableRow>
                                 ))
                             }

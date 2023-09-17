@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, createContext, useContext } from 'react';
 import { styled, useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
@@ -19,10 +19,12 @@ import Festival from './Content/Festival';
 import Grove from './Content/Grove';
 import Rivals from './Content/Rivals';
 import QuickReference from './Content/QuickReference';
-import Map from './Content/Map';
+import Maps from './Content/Map';
 import D20 from './assets/d20.png'
 
 const drawerWidth = 240;
+
+export const DnDAppContext = createContext(null);
 
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
   ({ theme, open }) => ({
@@ -73,8 +75,8 @@ export default function App() {
 
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
+  const [progression, setProgression] = useState(new Map());
   const [selectedContent, setSelectedContent] = useState("Maps");
-
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -87,7 +89,7 @@ export default function App() {
   const renderSelectedComponent = () => {
     switch (selectedContent) {
       case "Maps":
-        return <Map />;
+        return <Maps />;
       case "Rivals":
         return <Rivals />;
       case "Festival of Merit":
@@ -109,8 +111,8 @@ export default function App() {
           background: 'white',
           color: 'black',
         }}>
-          <Box sx={{mr:'15px', }}>
-            <img 
+          <Box sx={{ mr: '15px', }}>
+            <img
               src={D20}
               height={50}
             />
@@ -133,7 +135,10 @@ export default function App() {
 
       <Main open={open}>
         <DrawerHeader />
-        {renderSelectedComponent()}
+        <DnDAppContext.Provider value={{ progression, setProgression }}>
+          {renderSelectedComponent()}
+        </DnDAppContext.Provider>
+
       </Main>
       <Drawer
         sx={{
