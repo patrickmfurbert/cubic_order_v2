@@ -4,8 +4,9 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import TownMap from '../assets/town_map.png'
 import StarMap from '../assets/dnd_star_map.png';
+import EmeraldGrottoMap from '../assets/Emerald-Grotto.jpg';
 
-const images = [TownMap, StarMap]
+const images = [TownMap, StarMap, EmeraldGrottoMap]
 
 export default function Map() {
     return (

@@ -58,8 +58,8 @@ export default function GroveTable() {
                                         <TableCell component="th" scope="row">
                                             {location}
                                         </TableCell>
-                                        <Tracker identifier={location+'.CubicOrder'} />
-                                        <Tracker identifier={location+'.Rivals'} />
+                                        <Tracker identifier={location + '.CubicOrder'} />
+                                        <Tracker identifier={location + '.Rivals'} />
                                     </TableRow>
                                 ))
                             }

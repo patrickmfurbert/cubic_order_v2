@@ -6,6 +6,18 @@ import Typography from '@mui/material/Typography';
 
 const tips = [
     {
+        tip: "Combat",
+        descriptions:[
+            "The game organizes the chaos of combat into a cycle of rounds and turns. A round represents about 6 seconds in the game world.",
+            "Initiative: d20 + dexterity modifier + bonus from feats/magic(ie Alert +5 to initiative)",
+            "Surprise: If no party is attempting to be stealthy, they both notice each other. Hiding side has Dexterity(stealth) checks against anyone hiding with the passive Wisdom(Perception on the oppositing side). Any character that does not notice a threat is suprised at the start of the encounter.",
+            "If you are surprised you cannot move or take action on your first turn. Also you cannot take a reaction until that turn ends.",
+            "You may not hide from a creature that can clearly see you",
+            "Every character has one action and bonus action they can use on their turn",
+            "Every character has on reaction they can use during each round of combat"
+        ],
+    },
+    {
         tip: "Underwater Combat",
         descriptions: [
             "Creatures that are fully submerged in water have resistance to fire damage.",
