@@ -28,6 +28,15 @@ const tips = [
         ]
     },
     {
+        tip: "Swimming",
+        descriptions: [
+            "Unless aided by magic, a character without a swimming speed can’t swim indefinitely. After each hour of swimming, a character must succeed on a DC 10 Constitution saving throw or gain 1 level of exhaustion.",
+            "A creature with a swimming speed—including a character with a ring of swimming or similar magic—can swim all day without penalty and uses the normal forced march rules in the Player’s Handbook.",
+            "Swimming through deep water is similar to traveling at high altitudes because of the water’s pressure and cold temperature. For a creature without a swimming speed, each hour spent swimming at a depth greater than 100 feet counts as 2 hours for the purpose of determining exhaustion, and swimming for an hour at a depth greater than 200 feet counts as 4 hours.",
+
+        ]
+    },
+    {
         tip: "Movement/Travel speed",
         descriptions: [
             "A character's movement speed is the distance they can move in a single round, which is about six seconds of in-game time. For example, a speed of 30 feet per turn is equal to 3.4 miles per hour.",

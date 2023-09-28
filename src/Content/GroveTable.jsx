@@ -43,8 +43,6 @@ export default function GroveTable() {
                             <TableRow>
                                 <TableCell>Location </TableCell>
                                 <TableCell align="right">Cubic Order</TableCell>
-                                <TableCell align="right">Rivals</TableCell>
-
                             </TableRow>
                         </TableHead>
                         <TableBody>
@@ -59,7 +57,6 @@ export default function GroveTable() {
                                             {location}
                                         </TableCell>
                                         <Tracker identifier={location + '.CubicOrder'} />
-                                        <Tracker identifier={location + '.Rivals'} />
                                     </TableRow>
                                 ))
                             }

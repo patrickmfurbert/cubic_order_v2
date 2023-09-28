@@ -22,7 +22,7 @@ const rivals = [
         dndName: 'Dermont',
     },
     {
-        name: 'Dr. Frank-nFurter',
+        name: 'Dr. Frank-n-Furter',
         dndName: 'Galsariad',
     },
 

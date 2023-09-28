@@ -92,26 +92,34 @@ const locations = [
         location: "E10: Moonshark Lair",
         descriptions: [
             "READ: Silvery light dances along the walls of this underwater cave. The water here is a little warmer, and a gentle current pulls you toward a crevice in the south wall that emits shimmering golden light. Prowling around the cave’s pillars is a massive shark. A gold amulet hangs from a thick rope tied around the shark’s body, and a silver spear protrudes from its side.",
-            "",
-            "",
-            "",
+            "The amulet is the Emerald Eye—the goal of this race. The silver spear lodged in the shark’s hide has been enchanted by the divine power of Sehanine the Moon Weaver. The shark uses the giant shark stat block. A character within 5 feet of the shark can use an action to try to dislodge the spear, doing so with a successful DC 13 Strength (Athletics) check. While the spear is lodged in the shark, apply these changes to the shark’s stat block:",
+            "The shark glows with silvery illumination, shedding bright light in a 10-foot radius and dim light for an additional 10 feet.",
+            "If the shark uses its action to make a Bite attack but misses, it can use a bonus action to swim up to 25 feet. This movement doesn’t provoke opportunity attacks.",
+            "The shark immediately attacks any creature that enters its chamber. Depending on how quickly the characters moved through the grotto, the encounter could go one of three ways:",
+            "Fast Pace (10 or Fewer Rounds). The characters outpaced the rivals. The rivals don’t appear until after the encounter with the shark is resolved.",
+            "Moderate Pace (Between 11 and 15 Rounds). The characters beat the rivals to the chamber, but not by much. The rivals enter the chamber on the third round of combat and roll initiative. Unless the rivals are hostile toward the characters, they aid the characters in the fight against the shark; otherwise, they focus on acquiring the amulet or try to sabotage the characters (though these attempts are never intentionally lethal).",
+            "Slow Pace (16 or More Rounds). The rivals get to the chamber ahead of the characters. When the characters arrive, the rivals have reduced the shark to 75 hit points. The characters roll initiative when they enter the chamber.",
+            "Emerald Eye. A druid of Jigow cast animal friendship on the shark earlier today and tied the Emerald Eye around its body, then made a speedy getaway. A character can cut the amulet free by attacking the rope around the shark instead of the shark itself. The rope has AC 17 and 5 hit points. It can be removed as an action if the shark is killed or incapacitated. The amulet, which is made of gold and emeralds, is worth 500 gp—though no one in Jigow will buy it, since it must be returned the town elders once the contest is completed.",
+            "Moonshark’s Defeat. When the shark is reduced to 0 hit points, it thrashes about in its death throes and crashes into the stone pillar in the south part of the room, which tumbles into the south wall and cracks it open. Read:",
+            "READ: The dying shark slams into the stone pillar in the south end of the cavern. The pillar cracks under the force, teeters, then crashes down against the south wall. The wall fractures and collapses, revealing a passage awash with golden light.",
         ]
     },
     {
-        location: "",
+        location: "E11: Moon Weaver’s Gateway",
         descriptions: [
-            "",
-            "",
-            "",
-            "",
+            "READ: The cramped passage bends upward until the tunnel becomes vertical. Golden light radiates from the upper end of the shaft.",
+            "Characters who swim through this passage break the surface of the water and emerge in a glowing, air-filled chamber (area E12).",
         ]
     },
     {
-        location: "",
+        location: "E12: Prayer Site of Sehanine",
         descriptions: [
-            "",
-            "",
-            "",
+            "READ: The watery environment gives way to a cavern dotted with trees and pools of water. The walls are covered in vines of green ivy interspersed with colorful flowers. Part of the cavern is open to the sky. In the middle of the cavern is a sphere of pale light surrounding a crystal pedestal, upon which rests a golden pendant attached to a fine golden chain.",
+            "The object on the crystal pedestal glitters like the sunrise. This is the Jewel of Three Prayers, a Vestige of Divergence that will drive the course of the adventure from now on. The Jewel of Three Prayers is currently in its Dormant State (see appendix B for the description of this magic item).",
+            "If the rivals are present, they are hesitant to touch the jewel, giving the characters the first opportunity to do so. If the characters are also hesitant, Noxeema steels herself and strides forward to claim it (see “Disputing Destiny” below). Otherwise, as soon as one of the characters touches the jewel, the entire party experiences the following vision:",
+            "The light around the pedestal fades as a spectral figure in the form of a male human rises from the amulet. He is dressed in leather armor and a tattered red cape and wears a shield. His face is framed by curly brown hair and bears a melancholic expression. He pleads, “I am imprisoned. Please help me.” Suddenly, the ground vanishes beneath your feet, and you fall, tumbling through a vortex of golden light. You fall deeper, deeper, deeper, then suddenly stop. The golden light subsides, and you find yourself suspended in a pitch-black expanse. You feel water buoying you. A vermilion light appears in the distance, illuminating the melancholy warrior, who is shackled to the ground by disgusting strands of a fleshy, crimson substance. He raises his gaze to the heavens and, sobbing, chokes out, “Moon Weaver, I beg of you. Guide those with the power to save me to the site where first I prayed to you.” He looks around, and his eyes settle on you. “Oh, gods, there you are! My name is Alyxian. I am lost in darkness. Long ago, I prayed to the Change Bringer in the heart of a temple of evil. I beg you, take my jewel and…” You feel consciousness leaving you, as if the pressure of the water were crushing the life out of you. Alyxian’s voice is the last thing you hear before you pass out. “Save me. Please.”",
+            "Hostile Rivals. The characters awaken to discover that the rivals have absconded with both the Emerald Eye and the Jewel of Three Prayers.",
+            "Disputing Destiny. If Noxeema or another one of the rivals touched the Jewel of Three Prayers, they are the recipients of the vision instead. The rivals fall unconscious for 1 minute, and it is up to the characters to decide what to do with them. In this scenario, which is examined further in chapter 2, the rivals are the “heroes” of the story, and the characters must decide if they want to aid their rivals or take back the jewel and claim their own heroic destiny.",
             "",
         ]
     },
