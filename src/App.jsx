@@ -21,6 +21,7 @@ import Rivals from './Content/Rivals';
 import QuickReference from './Content/QuickReference';
 import Maps from './Content/Map';
 import D20 from './assets/d20.png'
+import Civitas from './Content/Civitas';
 
 const drawerWidth = 240;
 
@@ -98,6 +99,9 @@ export default function App() {
         return <Grove />;
       case "Quick Reference":
         return <QuickReference />;
+      case "Civitas Peccati":
+        return <Civitas />;
+
       default:
         return null;
     }
@@ -159,7 +163,7 @@ export default function App() {
         </DrawerHeader>
         <Divider />
         <List>
-          {['Maps', 'Rivals', 'Festival of Merit', 'Emerald Grove', 'Quick Reference'].map((text, index) => (
+          {['Maps', 'Rivals', 'Festival of Merit', 'Emerald Grove', 'Quick Reference', 'Civitas Peccati'].map((text, index) => (
             <ListItem key={text} disablePadding>
               <ListItemButton onClick={() => setSelectedContent(text)}>
                 <ListItemText primary={text} />

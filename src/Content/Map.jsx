@@ -5,8 +5,9 @@ import CardContent from '@mui/material/CardContent';
 import TownMap from '../assets/town_map.png'
 import StarMap from '../assets/dnd_star_map.png';
 import EmeraldGrottoMap from '../assets/Emerald-Grotto.jpg';
+import TombOfTheForgotten from '../assets/tomb-of-the-forgotten.jpg'
 
-const images = [TownMap, StarMap, EmeraldGrottoMap]
+const images = [TownMap, StarMap, EmeraldGrottoMap, TombOfTheForgotten]
 
 export default function Map() {
     return (
