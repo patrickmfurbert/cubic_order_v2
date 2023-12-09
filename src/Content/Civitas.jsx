@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 
 const locations = [
     {
-        location: 'The Craft Finds',
+        location: 'The Crafty Finds',
         description: 'Place to search for interesting objects',
         items: [
             {
